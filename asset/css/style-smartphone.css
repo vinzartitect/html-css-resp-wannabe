@@ -1,14 +1,27 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@media screen and (max-width:420px) {
 
-@media screen and (min-width:420px) {
+  .row {
+    width: 100%;
+    margin-top: 0;
+  }
 
+  h3 {
+    font-size: 1.5em;
+  }
 
+  /* BLOCCO LEZIONI */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    font-size: 12px;
+  }
 
+  #lezioni .row img {
+    height: 100px;
+  }
 
-  
-  
+  #lezioni {
+    background-color: #f2f2cd;
+  }
+
 }

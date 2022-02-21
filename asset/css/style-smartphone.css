@@ -9,6 +9,10 @@
     font-size: 1.5em;
   }
 
+  h1 {
+    font-size: 1.5em;
+  }
+
   /* BLOCCO LEZIONI */
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -23,5 +27,25 @@
   #lezioni {
     background-color: #f2f2cd;
   }
+
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  #steps .row img {
+    height: 100px;
+    margin-top: 15px;
+  }
+
+  #steps {
+    background-color: white;
+  }
+
+
+
 
 }
